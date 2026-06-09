@@ -1,0 +1,8 @@
+{
+  "name": "TS-Scetch-AI",
+  "description": "An advanced illustration tool that converts photos into stylized line art and layered colored illustrations using AI. Features include selective object extraction, multiple artistic style presets, and customizable line/color parameters with original preset saving functionality.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
