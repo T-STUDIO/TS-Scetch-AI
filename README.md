@@ -1,12 +1,9 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/86db9958-f1a1-4e1a-b63e-5ebe66f90fb5
+AIを活用して多角的に手軽にイラストを作成するアプリです。
+・作画タッチの選択でイラスト化
+・写真から特定の要素を抽出してイラスト化
+・イラスト化パラメーターによる調整
+・パラメーターへのプロンプト追加（音声対応）
+・様々なファイル形式での書き出し。
 
 ## Run Locally
 
@@ -15,6 +12,5 @@ View your app in AI Studio: https://ai.studio/apps/86db9958-f1a1-4e1a-b63e-5ebe6
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
