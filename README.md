@@ -12,6 +12,13 @@ AIを活用して多角的に手軽にイラストを作成するアプリです
 
 ・作画パラメーターの保存機能（同一のタッチでイラスト化）
 
+・BYOK対応（GeminiAPI使用、キーはローカルに安全に保存（サーバ保存なし）、キー取得補助機能）
+
+## 公開アドレス
+
+
+初回のみGeminiAPIキーを登録（もしくは取得補助機能で取得後登録）を行うとローカルに安全に保存されてAIを活用したイラスト作製が可能です。
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
@@ -20,4 +27,4 @@ AIを活用して多角的に手軽にイラストを作成するアプリです
 1. Install dependencies:
    `npm install`
 3. Run the app:
-   `npm run dev`
+　　`npm run build`→`npm run preview`
